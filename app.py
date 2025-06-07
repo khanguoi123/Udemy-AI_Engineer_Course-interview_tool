@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_js_eval import streamlit_js_eval
 
 st.set_page_config(page_title="Streamlit Chat by Khang", page_icon=":sun_with_face:")
-st.title("CHATBOT")
+st.title("CHATBOT INTERVIEW TOOL by Khang")
 
 # Khởi tạo biến trạng thái
 if "setup_complete" not in st.session_state:
